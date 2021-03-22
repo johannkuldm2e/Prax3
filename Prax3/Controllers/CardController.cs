@@ -14,7 +14,7 @@ namespace Prax3.Controllers
     [Route("[controller]")]
     public class CardController : ControllerBase
     {
-        // GET: CardController
+        // GET: CardController 
         [HttpGet]
         public Card GetCard([FromQuery] int cardNumber, int API_TOKEN)
         {
